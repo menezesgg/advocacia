@@ -1,0 +1,88 @@
+
+.box{
+    font-size: 30px;
+
+ 
+}
+fieldset{
+    border: 10px solid rgb(234, 236, 233);
+}
+legend{
+    border: 0px solid rgb(212, 214, 212);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(8, 74, 20);
+    border-radius: 10px;
+}
+
+
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+#submit{
+    background-image: linear-gradient(to right,rgb(72, 197, 0), rgb(51, 168, 47));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(50, 180, 18), rgb(22, 124, 9));
+}
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:rgb(253, 244, 244);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:rgb(228, 221, 221);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-av16{color:#212529;text-align:center;vertical-align:center}
+.tg .tg-0lax{text-align:center;vertical-align:center}
+
+#footer {
+    text-align: center;}
+    
+    #passos {
+        text-align: center;}
+        
+    
+    #template{
+        text-align: center;}
+    
+        #numero{
+            text-align: center;
+        }
+        
+        .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
